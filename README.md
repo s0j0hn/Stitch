@@ -8,7 +8,7 @@
 # About Stitch
 A Cross Platform Python Remote Administration Tool:
 
-This is a cross platform python framework which allows you to build custom payloads for Windows, Mac OSX and Linux as well. You are able to select whether the payload binds to a specific IP and port, listens for a connection on a port, option to send an email of system info when the system boots, and option to start keylogger on boot. Payloads created are can only be ran on the OS that they were created on.
+This is a cross platform python framework which allows you to build custom payloads for Windows, Mac OSX and Linux as well. You are able to select whether the payload binds to a specific IP and port, listens for a connection on a port, option to send an email of system info when the system boots, and option to start keylogger on boot. Payloads created can only run on the OS that they were created on.
 
 ## Features
 ### Cross Platform Support
@@ -56,6 +56,9 @@ All communication between the host and target is AES encrypted. Every Stitch pro
 ## Implemented Payload Installers
 The "stitchgen" command gives the user the option to create [NSIS](http://nsis.sourceforge.net/Main_Page) installers on Windows and [Makeself](http://stephanepeter.com/makeself/) installers on posix machines. For Windows, the installer packages the payload and an elevation exe ,which prevents the firewall prompt and adds persistence, and places the payload on the system. For Mac OSX and Linux, the installer places the payload and attempts to add persistence. To create NSIS installers you must [download](http://nsis.sourceforge.net/Download) and install NSIS. 
 
+## Wiki
+* [Crash Course of Stitch](https://github.com/nathanlopez/Stitch/wiki/Crash-Course)
+
 ## Requirements
 - [Python 2.7](https://www.python.org/downloads/)
 
@@ -96,6 +99,10 @@ or
 
 ## Motivation
 My motivation behind this was to advance my knowledge of python, hacking, and just to see what I could accomplish. Was somewhat discouraged and almost abandoned this project when I found the amazing work done by [n1nj4sec](https://github.com/n1nj4sec/pupy), but still decided to put this up since I had already come so far. 
+
+## Other open-source Python RATs for Reference
+* [vesche/basicRAT](https://github.com/vesche/basicRAT)
+* [n1nj4sec/pupy](https://github.com/n1nj4sec/pupy)
 
 ## Screenshots
 
